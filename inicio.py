@@ -20,3 +20,7 @@ print(nome[1:4])
 
 # Comcatenação com fString
 print(f"User {nome}, {idade} anos")
+
+# Identação é essencial em Python, visto que não utilizamos chaves
+
+# Operadores lógicos são as palavras escritas
