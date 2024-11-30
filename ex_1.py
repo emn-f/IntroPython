@@ -1,5 +1,5 @@
-nome = 'Emanuel'
-idade = '21'
-cidade = 'Camaçari'
+nome = input('Qual seu nome? ')
+idade = input('Qual sua idade? ')
+cidade = input('Mora onde? ')
 
-print(f'Sou {nome} tenho {idade} anos e moro em {cidade}')
+print(f'És {nome} tem {idade} anos e mora em {cidade}')
