@@ -1,6 +1,5 @@
-num1 = input('Informe um número: ')
-num2 = input('Informe outro número: ')
+nome = input('Qual seu nome? ')
+idade = input('Qual sua idade? ')
+cidade = input('Mora onde? ')
 
-soma = int(num1) + int(num2)
-
-print(f'{num1} + {num2} = {soma}')
+print(f'És {nome} tem {idade} anos e mora em {cidade}')

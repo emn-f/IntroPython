@@ -1,10 +1,8 @@
-# Verificar se o número informado é par ou ímpar
+# Soma e exibição de dois números
 
-num = int(input('Informe um número: '))
+num1 = input('Informe um número: ')
+num2 = input('Informe outro número: ')
 
-num = num
+soma = int(num1) + int(num2)
 
-if (num % 2 == 0):
-    print('Número par!')
-else:
-    print('Número ímpar!')
+print(f'{num1} + {num2} = {soma}')
